@@ -1,4 +1,4 @@
-package Collections.HashMap;
+package Collections.Map.HashMap;
 
 public class HashTable {
     private HashNode[] buckets;
