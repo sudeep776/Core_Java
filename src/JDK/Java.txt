@@ -1,0 +1,52 @@
+Features of Java
+* Platform independent language
+* OOPS
+* Portability
+ - WORA - write once run anywhere
+
+ Flow of code
+ Java code ----> Compiler ----> Bytecode -----> Jvm ----> Machine code ----> CPU ----> output
+
+ JVM
+ * Jvm converts bytecode to machine code
+ * Not platform independent
+ * JVM has JIT compiler
+
+ JIT
+ * Compiling Java bytecode into native machine code during runtime
+
+ JRE
+ * Libraries and class files and provides other resources to run Java applications.
+
+ JDK - java compiler and debugger and JRE
+
+JVM architecure
+* ClassLoader -- Loads .class files into the memory when a program starts.
+* Memory areas --
+    Heap memory - Stores objects and arrays
+    Stack memory - Stores local variables and method calls
+    Method area - Stores metadata about classes
+
+  Execution engine -
+    * Interpreter - Executes bytecode one instruction at a time
+    * JIT compiler - Compiles bytecode to native machine code for performance optimization
+    * Garbage collector - Manages memory by reclaiming unused objects
+
+ ClassLoader
+ System CL
+ Extension CL
+ Bootstrap CL
+
+ Loads core java files - Bootstrap CL
+ Extension directories - Extension CL
+ Classpath - JARS
+
+
+ Summary --
+ Jdk ---> Jre---> Jvm
+ Now Jdk has a compiler and debugger
+ JRE provides libraries and Java class files and other resources to run java apps
+ Compiler converts code into bytecode
+ Jvm loads the .class files through classloader
+ Jvm is responsible for executing java bytecode
+ Jvm provides functionalities such as memory management,garbage collection and JIT compiler

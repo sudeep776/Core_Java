@@ -1,0 +1,116 @@
+OOPS - Object oriented Programming
+* Perspective always from a object point
+* Objects are a real world entity
+
+Q1)Procedural vs OOPS
+Procedural
+* Program is divided into functions
+* Doesnt not provide proper way to hide data
+* Overloading and inheritance is not possible
+* Code reusability is not possible
+* Eg : Pascal , C and Fortran
+
+OOPS
+* Program is divided into objects
+* Data hiding
+* Overloading and inheritance is possible
+* Code reusablility
+Eg : Java , C++
+
+
+---------------------------------------------------------------------------------------
+
+Objects and classes
+
+Objects has 2 things:
+* Properties/state
+* Behavior/Function
+
+Eg : Dog - object
+     properties - limbs,ears,tail
+     function - bark
+
+Constructors - non parametric - full freedom
+             - min params reqd
+
+Getters and Setters - to control which props or data variables can be edited
+
+----------------------------------------------------------------------------------------
+
+1st Pillar of OOPS
+Abstraction
+* It hides the internal implementation and shows only functionality to the user
+* Uses abstract classes and implementation
+
+Eg : Brake functionality in car can be used without knowing its implementation
+    Call can be made from a cellphone without knowing the working of a cellphone
+
+Advantages - Take away
+Improves security and confidentiality
+Loose coupling
+
+-------------------------------------------------------------------------------------
+
+2nd Pillar of OOPS
+Encapsulation
+*Bundles data and code as a single unit
+*Steps for encapsulation
+  - Privatize the variable
+  - Public getters and setters for the variable
+
+Advantages
+* Loose coupling
+* Better access control and security
+
+Eg : Class bounded with data and functions
+
+Public - all allowed
+Private - same class
+Default - same class in same package
+Protected - same class and only pkg subclass level
+---------------------------------------------------------------------------------------
+
+3rd Pillar  -   Inheritance
+* Capability of a class to inherit props from their parent class
+
+Types of inheritance
+*  Single inheritance
+* Multilevel inheritance
+* Hierarchial inheritance
+* Multiple inheritance - diamond problem
+
+Advantages
+* Code reusability
+* Polymorphism
+
+Single level inheritance
+Class A --- Class B
+
+Multilevel Inheritance
+Class A ---- Class B ---- Class C
+
+Hierarchial inheritance
+Class A --- Class B
+Class A ---- Class C
+
+
+Multiple inheritance
+Class A --- Class B
+Class C --- Class B
+One class cannot inherit from 2 classes
+
+This is called Diamond problem
+Solved by interface - cannot implement method
+
+------------------------------------------------------------------
+
+4th Pillar - PolyMorphism
+* Many forms
+Types of PolyMorphism
+* Compile time / Method overloading
+* Run time / Method overriding
+
+----------------------------------------
+Object relationships
+
+
