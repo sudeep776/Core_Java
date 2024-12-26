@@ -1,0 +1,41 @@
+Access Specifiers
+Public : can be access through any package
+Private : can be accessed by the methods in the same class
+Protected : same package or other subclasses in different package
+Default : Package private , only package level
+
+---------------------------------------------------
+
+Static methods
+
+Static methods are associated with the class
+Call using class name
+Static methods cant be overridden
+Static method can not access non static methods and variables
+Non static can access static vars/methods
+
+When to make methods static
+If the methods use instance variable or static variables dont make it static as it can alter the values.
+Make it static when its independent of the instance variables
+
+Example : factory design pattern
+
+-----------------------------------------------------------
+
+Final methods
+
+Final methods cant be overridden
+
+----------------------------------------------------------
+
+Abstract methods
+Abstract method only provides structure
+Class extending must provide implementation
+
+
+-------------------------------------------------------------
+Varargs
+Used when we dont know the number of arguments
+
+
+

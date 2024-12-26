@@ -1,0 +1,43 @@
+Variables
+* Variables is a container which holds a value.
+* Java is static and strong types lang
+
+Convention
+* camelCase must be followed
+* For constants Uppercasing must be followed
+
+Primitive types and Non Primitive types
+Char (unsigned)-- 2 bytes -  16 bytes ---> Range -- 2^0 to 2^(16-1)
+Byte  - 1 byte - 8 bits ---> Range -- 2^0 to 2^(8-1)
+Short(Signed) - 2 bytes - 16bits -
+Int (Signed) - 4 bytes - 32 bits
+Long(Signed) - 8 bytes
+Double - Fractional - 64bit IEEE 754 values
+Float - fractional - 32 bit IEEE 754 values
+Boolean - T/F - 1 bit
+
+Note - Use BigInt instead of float/double
+------------------------------------------------------------------------
+
+Types of conversion
+Widening/Automatic conversion
+When lower memory data types are put into higher ones implicit /automatic widening happens
+
+Downcasting
+When higher to lower happens Explicitly casting has to be done ,
+and if the number exceeds the limit it starts from beginning.
+
+Promotion during expression
+When 2 values are added lets say 2 byte values 127 and 1 are added it is promoted to integer auto
+
+----------------------------------------------------------------------------
+Kinds of variables
+Instance/member variable - Variable of the class so each object
+                            created will have an individual copy of variable
+
+Local variable - Defined inside the function and scope is limited inside function
+
+Static/class variable - Only one copy of static variable exists. All objects can use it.
+
+----------------------------------------------------------------------------
+

@@ -1,0 +1,35 @@
+Constructor
+
+It is used to create an instance.
+It is also used to instantiate the instance variable.
+
+---------------------------------------------
+Constructors cannot be final
+
+It cannot be inherited as it would cause discrepancy in the names of the new class and old one
+Since it cant be inherited it cant be overridden
+So no point of making it final
+
+
+--------------------------------------------
+
+Constructor cannot be abstract
+
+It cannot be abstract as it cannot be inherited the implementation will be in the child class.
+
+
+-----------------------------------------------
+Constructors cant be static
+
+Constructors are supposed to initialize the instance variables since static methods cant access not static varialbes.
+It cant be static
+
+--------------------------------------------------------
+
+Constructor cant be in a interface
+
+It cant create an object so no.
+
+-------------------------------------------------------------
+
+

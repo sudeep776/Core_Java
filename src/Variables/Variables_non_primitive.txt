@@ -1,0 +1,86 @@
+Reference data type
+* Class
+* String
+* Interface
+* Array
+
+Whenever a new object is created memory is allocated in the heap memory
+The variable holds the reference to the memory created
+
+Pass by value / Pass by ref
+In Java everything is pass by value
+
+
+Example
+Consider an employee class has an attribute id
+And after creating an object we pass the object to another function
+Then we are passing by memory/reference
+Where we can change/modify the attributes
+
+-------------------------------------------------------------------------
+Strings
+
+Strings are immutable
+
+Why are strings immutable ?
+"Hello" -> literals
+This will be in String constant pool
+Now when we create another string with the same literal then it points to the same memory
+
+When we use new String() to create a new String new memory is allocated.
+
+equals and ==
+---------------------------------------------------------------------------
+
+Interface
+2 classes are implementing one interface.
+When both of classes overrides the same method.
+
+Parent interface can hold the reference to the child object
+
+Interface A
+Class B
+Class C
+
+A a = new B();
+A a = new C();
+
+----------------------------------------------------------
+
+Array
+
+Sequence of memory storing data type.
+
+
+----------------------------------------------------------------
+Wrapper class
+
+Autboxing
+Unboxing
+
+Why do we need ref type of each primitive data type
+
+In memory management Primitive datatypes are stored in a stack
+And it is in the scope of the function or class
+
+Whenever we need the params to be passed to different functions to be updated we use Wrapper
+
+Used in collection frameworks
+-----------------------------------------------------
+
+What is Autoboxing
+Primitive to Wrapper class
+
+And the opposite in unboxing
+
+--------------------------------------------------------
+
+Constant
+
+static final a = 20;
+constant variable
+
+Once it is declared it cant be changed
+
+
+
