@@ -1,0 +1,70 @@
+Memory Management
+
+2 types of memory
+* Stack
+* Heap
+
+Both are created by Jvm and stored in RAM
+------------------------------------------
+
+Stack Memory
+
+Primitive data types are stored in stack memory
+They also store reference to the heap objects
+Stores variables and has a separate block for methods
+In that block all the method scope variables are stored
+Variables within scope stay once its out of scope its deleted
+
+Each thread has its own stack memory
+
+Strong vs Weak reference
+Strong ref is when a ref is established by address in heap memory.
+Weak ref is removed when gc runs.
+Soft ref is removed only when gc is supposed to remove with high requirement
+
+
+
+------------------------------------------------------------------
+
+Heap memory
+Stores objects
+No order of allocation of memory
+
+Garbage collector is used to delete the unreferenced objects from the heap
+Garbage collector is divided into young and old gen
+Young gen - eden , s0 and s1
+Old gen -
+
+Mark and sweep algo
+
+Minor GC
+New objects are created in eden
+Marks unref objects
+The rest are surviving objects then they are placed into s0
+Age is surviving GC
+When age meets threshold promoto to Old gen
+
+Major GC
+This runs on Old gen
+Mark and sweep is used here also
+
+Metaspace
+It is used to store class variables and constants
+
+
+Garbage collection
+Mark and sweep - mark and delete unref objects
+Mark and sweep with compact memory -   Brings sequential use of memory for objects remained after gc
+
+Version of GC
+Serial GC - single thread and expensive and slow
+Parallel GC - default Java8 and runs parallel threads
+Concurrent Mark and sweep - Java17 Parallel with application running
+G1 - Better Concurrent GC.
+
+----------------------------------------------
+
+
+
+
+
