@@ -1,0 +1,85 @@
+Concrete class
+
+Class which can be used to create objects
+No abstract methods
+Doesnt need to be extended
+Can implement interfaces
+
+-------------------------------------------------
+
+Abstract class
+
+Cannot create instance of this
+Can have both abstract and non-abstract methods
+Constructors can be created
+
+* hides internal implementation
+
+
+--------------------------------------------------------
+
+Super and sub classes
+
+Parent - Super
+Child - Sub
+Every class is subclass of Object class
+And thread related functions
+
+------------------------------------------------------------
+
+Nested class
+
+Class within another class
+
+* Static nested class
+* Non static nested class
+
+Non static nested class
+Local inner class
+Member inner class
+Anonymous inner class
+
+
+When to use nested class
+Lets say if a class A is used by only Class B then instead of a separate file
+we can keep it as a nested class.
+Helps group logicaly related classes.
+Scope - same as of outer class
+
+
+--------------------------------------------------
+
+Static nested class
+
+You can make the nested class as private also.
+Cannot access instance variables since its static
+Go through examples
+
+
+
+
+---------------------------------------------
+
+Non static nested class/ inner class
+
+Since its not static you need to create a object of outer class to invoke inner class
+It can be private , public ,protected and default
+
+-----------------------------------------------
+
+Local inner class
+
+Class defined inside the block.
+Blocks like loops , conditions etc
+
+-----------------------------------------------
+
+Inheritance in inner classes
+
+One inner class can extend another inner class
+
+----------------------------------------------
+
+Anonmyous classes
+
+

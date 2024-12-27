@@ -33,6 +33,8 @@ class Student implements Car{
         System.out.println("applying break");
     }
 }
-public class Objects {
+public class OOPS1 {
+    public static void main(String[] args) {
 
+    }
 }
