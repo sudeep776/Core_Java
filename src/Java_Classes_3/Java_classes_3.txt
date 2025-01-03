@@ -1,0 +1,7 @@
+Singleton class
+
+Objective : Create only 1 Object
+
+Different ways to create Singleton object
+
+1) Eager initialization

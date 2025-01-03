@@ -1,0 +1,47 @@
+Generics
+
+<T> specify at class definition
+Use the T as a type of a variable
+
+<K,V> can contain more than one Generic
+
+----------------------------------
+
+Inheritance in Generics
+
+Eg : Print<T> is a superclass
+Now if a subclass has to inherit
+
+Subclass<T> extends Print<T>
+
+Sublass extends Print<String>
+
+---------------------------------
+
+Generic Method
+<T> before return type
+return type can be generic
+
+public <K,V> void printValue(Pair<K,V> pair1)
+
+
+-------------------------------------
+
+Raw generic
+
+If not specified generics it uses Object as a generic
+But when retrieving info we need to cast
+
+-------------------------------------------------
+
+Bounded generics
+
+<T extends Number> - Integer is a child class of Number
+Upper bound - means T can be of type Number or its subclass only
+Restricts other objects that can be passed
+Can also extend interface
+
+Multi-bound - <T extends Class1 & interface1 & interface2>
+
+
+
