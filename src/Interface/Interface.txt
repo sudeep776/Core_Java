@@ -1,0 +1,51 @@
+https://notebook.zohopublic.in/public/notes/u3i1s033d318172e442b8b8f242767b93776c
+
+
+
+1) Why do we need interface
+Interface -   something helps which help 2 system to interact with each other
+              Helps achieve abstraction
+
+Multiple inheritance and provides abstraction
+
+2)Defining interface
+Only public and default modifiers can be used. Protected and private are not allowed.
+
+3) Methods in interface
+All methods in interfaces are implicitly public
+Methods cant be final
+
+Fields are public static and final
+
+
+4) Implementing interface
+Overriding method cannot have restrict accesss specifiers
+Conrete class must override al methods of interface
+Abstract classes are not forced to override all methods
+A class can implement multiple interfaces
+
+
+
+5) Nested interface
+Nested interface declared within an interface must be public
+Nested interface devlared within a class can have access modifiers
+
+interface.subinterface
+
+6)Interface vs Abstract class
+Refer pdf
+
+
+---------------------------------------------------------------
+
+Functional interface and Lambda expression
+
+Functional interface - 1 abstract method
+
+Types of functional interface - consumer , producer , predicate and supplier
+
+Consumer - accepts a single input parameter returns no result
+
+Supplier - accepts no input parameter but produces a result
+
+Function - accepts one argument
