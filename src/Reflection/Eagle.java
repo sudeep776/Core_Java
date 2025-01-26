@@ -1,6 +1,6 @@
 package Reflection;
 
-public class Eagle {
+ public final class Eagle {
     public String breed;
     private boolean canSwim;
 
