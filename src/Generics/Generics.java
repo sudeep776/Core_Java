@@ -1,6 +1,5 @@
 package Generics;
 
-import Java_Classes.Inner;
 
 class Print<T>{
     T value;
