@@ -5,6 +5,7 @@ public class HashTable {
     private int numOfBuckets;
     private int size;
     public HashTable(){
+
         this(10);
     }
     public HashTable(int capacity){
@@ -45,6 +46,7 @@ public class HashTable {
         buckets[bucketIndex]=node;
     }
     public int getBucketIndex(Integer key){
+
         return key%numOfBuckets;
     }
     public String get(Integer key){

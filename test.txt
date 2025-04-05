@@ -1,0 +1,11 @@
+inner join of emp with dept and salary table -- and aggregation sum - grou[by dept
+
+Employee table with Emp Id, Emp Name, Emp Dep Id.
+Department table with Dep Id, Dep Name.
+Salary Table with Sal Id, Emp Id, Sal.
+Fetch the department name, total salary for each department.
+
+select sum(s.emp_salary) , d.dept_name from Employee e
+inner join Salary s  on s.emp_id=e.emp_id
+inner join Dept d on e.emp_dep_id = d.dep_id
+group by 2

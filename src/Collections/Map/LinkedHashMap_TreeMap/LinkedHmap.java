@@ -4,13 +4,13 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Collections;
 public class LinkedHmap {
-    //maintains insertion order or access order
-    // access order - high frequently used
-    //it uses double linkedlist which consists before and after
-    // to track the next and previous elements inserted
-
-    //not thread safe use synchronizedmap below example
-
+//    maintains insertion order or access order
+//     access order - high frequently used
+//    it uses double linkedlist which consists before and after
+//     to track the next and previous elements inserted
+//
+//    not thread safe use synchronizedmap below example
+//
 //    public static void main(String[] args) {
 //
 //        //throws concurrentmodification exception
